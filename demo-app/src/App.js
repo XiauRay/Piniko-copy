@@ -4,14 +4,14 @@ import './App.css';
 //routers
 
 //components
-// import Header from './components/Header';
+import Header from './components/Header';
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div className="App">
-          
+          <Header/>
         </div>
       </Router>
     );
