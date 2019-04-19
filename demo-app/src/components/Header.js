@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
       return (
-        <div className="Header">
+        <div className="Header ">
+          <div className="container">
           <nav>
             <ul>
               <li>
@@ -12,6 +13,7 @@ class Header extends Component {
               </li>
             </ul>
           </nav>
+          </div>
         </div>
       );
     }
